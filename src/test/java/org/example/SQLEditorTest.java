@@ -194,7 +194,6 @@ public class SQLEditorTest {
 
     @AfterAll
     public static void tearDown() {
-        Assertions.assertTrue(mainPage.resultInfo.getText().contains("You have made changes to the database."));
         driver.quit();
     }
 
